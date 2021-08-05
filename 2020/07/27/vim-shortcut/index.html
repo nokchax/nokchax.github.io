@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Vim에서 사용하는 단축키를 알아보자vim에서 자주 사용하는 단축키에 대해서 알아봅시다 Vim에 존재하는 모드에 대해서put image here 일반모드 명령 (Normal mode &#x2F; Command mode) 가장 기본적인 모드 다른 모드에서 ESC 를 누르면 전환 된다. 혹은 Ctrl + [ 를 눌러도 전환 된다.  비주얼 모드ex 모드w와 W에 대해w">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vim shortcut">
+<meta property="og:url" content="https://github.com/nokchax/2020/07/27/vim-shortcut/index.html">
+<meta property="og:site_name" content="Nokchax&#39;s devlog">
+<meta property="og:description" content="Vim에서 사용하는 단축키를 알아보자vim에서 자주 사용하는 단축키에 대해서 알아봅시다 Vim에 존재하는 모드에 대해서put image here 일반모드 명령 (Normal mode &#x2F; Command mode) 가장 기본적인 모드 다른 모드에서 ESC 를 누르면 전환 된다. 혹은 Ctrl + [ 를 눌러도 전환 된다.  비주얼 모드ex 모드w와 W에 대해w">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://github.com/2020/07/27/vim-shortcut/ciw.gif">
+<meta property="og:image" content="https://github.com/2020/07/27/vim-shortcut/diw.gif">
+<meta property="og:image" content="https://github.com/2020/07/27/vim-shortcut/ciwUpper.gif">
+<meta property="og:image" content="https://github.com/2020/07/27/vim-shortcut/diwUpper.gif">
+<meta property="article:published_time" content="2020-07-27T10:40:54.000Z">
+<meta property="article:modified_time" content="2021-08-05T12:11:12.069Z">
+<meta property="article:author" content="KwangHyun Kim">
+<meta property="article:tag" content="vim">
+<meta property="article:tag" content="단축키">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/2020/07/27/vim-shortcut/ciw.gif">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.png">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/fabicon.png">
+          
+        
+    
+    <!-- title -->
+    <title>vim shortcut</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" class="active"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" class="active"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu" style="visibility: visible;">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/categories/">Category</a></li>
+         
+          <li><a href="/tags/">Tag</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://github.com/nokchax/2020/07/27/vim-shortcut/" target="_blank" rel="noopener"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://github.com/nokchax/2020/07/27/vim-shortcut/&text=vim shortcut" target="_blank" rel="noopener"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://github.com/nokchax/2020/07/27/vim-shortcut/&title=vim shortcut" target="_blank" rel="noopener"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Vim에서-사용하는-단축키를-알아보자"><span class="toc-number">1.</span> <span class="toc-text">Vim에서 사용하는 단축키를 알아보자</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Vim에-존재하는-모드에-대해서"><span class="toc-number">1.1.</span> <span class="toc-text">Vim에 존재하는 모드에 대해서</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#일반모드-명령-Normal-mode-Command-mode"><span class="toc-number">1.1.1.</span> <span class="toc-text">일반모드 명령 (Normal mode &#x2F; Command mode)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#비주얼-모드"><span class="toc-number">1.1.2.</span> <span class="toc-text">비주얼 모드</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ex-모드"><span class="toc-number">1.1.3.</span> <span class="toc-text">ex 모드</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#w와-W에-대해"><span class="toc-number">1.2.</span> <span class="toc-text">w와 W에 대해</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#inner-word"><span class="toc-number">1.3.</span> <span class="toc-text">inner word</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ciw-change-inner-word"><span class="toc-number">1.3.1.</span> <span class="toc-text">ciw (change inner word)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#diw-delete-inner-word"><span class="toc-number">1.3.2.</span> <span class="toc-text">diw (delete inner word)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ciW-diW"><span class="toc-number">1.3.3.</span> <span class="toc-text">ciW &#x2F; diW</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#복사-붙여넣기"><span class="toc-number">1.4.</span> <span class="toc-text">복사 &#x2F; 붙여넣기</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#K"><span class="toc-number">1.5.</span> <span class="toc-text">K</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        vim shortcut
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">nokchax</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2020-07-27T10:40:54.000Z" itemprop="datePublished">2020-07-27</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/vim/">vim</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/vim/" rel="tag">vim</a>, <a class="tag-link" href="/tags/%EB%8B%A8%EC%B6%95%ED%82%A4/" rel="tag">단축키</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content postBody" itemprop="articleBody">
+    <h1 id="Vim에서-사용하는-단축키를-알아보자"><a href="#Vim에서-사용하는-단축키를-알아보자" class="headerlink" title="Vim에서 사용하는 단축키를 알아보자"></a>Vim에서 사용하는 단축키를 알아보자</h1><p>vim에서 자주 사용하는 단축키에 대해서 알아봅시다</p>
+<h2 id="Vim에-존재하는-모드에-대해서"><a href="#Vim에-존재하는-모드에-대해서" class="headerlink" title="Vim에 존재하는 모드에 대해서"></a>Vim에 존재하는 모드에 대해서</h2><p>put image here</p>
+<h3 id="일반모드-명령-Normal-mode-Command-mode"><a href="#일반모드-명령-Normal-mode-Command-mode" class="headerlink" title="일반모드 명령 (Normal mode / Command mode)"></a>일반모드 명령 (Normal mode / Command mode)</h3><ul>
+<li>가장 기본적인 모드</li>
+<li>다른 모드에서 <strong>ESC</strong> 를 누르면 전환 된다.</li>
+<li>혹은 <strong>Ctrl + [</strong> 를 눌러도 전환 된다.</li>
+</ul>
+<h3 id="비주얼-모드"><a href="#비주얼-모드" class="headerlink" title="비주얼 모드"></a>비주얼 모드</h3><h3 id="ex-모드"><a href="#ex-모드" class="headerlink" title="ex 모드"></a>ex 모드</h3><h2 id="w와-W에-대해"><a href="#w와-W에-대해" class="headerlink" title="w와 W에 대해"></a>w와 W에 대해</h2><p>w는 단어<br>W는 <strong>공백</strong> 으로 나누어지는 것을 하나의 단어로 인식합니다.</p>
+<h2 id="inner-word"><a href="#inner-word" class="headerlink" title="inner word"></a>inner word</h2><h3 id="ciw-change-inner-word"><a href="#ciw-change-inner-word" class="headerlink" title="ciw (change inner word)"></a>ciw (change inner word)</h3><p>커서 기준으로 한 단어를 삭제하고 입력 상태로 변경합니다</p>
+<img src="/2020/07/27/vim-shortcut/ciw.gif" class="" title="change inner word">
+<hr>
+<h3 id="diw-delete-inner-word"><a href="#diw-delete-inner-word" class="headerlink" title="diw (delete inner word)"></a>diw (delete inner word)</h3><p>커서 기준으로 한 단어를 삭제합니다.</p>
+<img src="/2020/07/27/vim-shortcut/diw.gif" class="" title="delete inner word">
+<hr>
+<h3 id="ciW-diW"><a href="#ciW-diW" class="headerlink" title="ciW / diW"></a>ciW / diW</h3><p>커서를 기준으로 빈 공백 사이의 문자들을 삭제합니다.</p>
+<img src="/2020/07/27/vim-shortcut/ciwUpper.gif" class="" title="delete inner word">
+<img src="/2020/07/27/vim-shortcut/diwUpper.gif" class="" title="delete inner word">
+
+
+<h2 id="복사-붙여넣기"><a href="#복사-붙여넣기" class="headerlink" title="복사 / 붙여넣기"></a>복사 / 붙여넣기</h2><p>맥 OS의 경우에는 command + c, v 를 이용해서 복사 붙여넣기가 가능하기 때문에 상관 없지만, 윈도우 환경에서는 단축기가 충돌난다.<br>이떄 ctrl + ins / shift + ins 로 대체할 수 있다.</p>
+<h2 id="K"><a href="#K" class="headerlink" title="K"></a>K</h2><p>open man page (manual page?)</p>
+
+  </div>
+</article>
+
+
+    <div class="blog-post-comments">
+        <div id="utterance">
+            <script src="https://utteranc.es/client.js"
+                    repo="nokchax/blog-comment"
+                    issue-term="pathname"
+                    theme="photon-dark"
+                    crossorigin="photon-dark"
+                    async>
+            </script>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/categories/">Category</a></li>
+         
+          <li><a href="/tags/">Tag</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Vim에서-사용하는-단축키를-알아보자"><span class="toc-number">1.</span> <span class="toc-text">Vim에서 사용하는 단축키를 알아보자</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Vim에-존재하는-모드에-대해서"><span class="toc-number">1.1.</span> <span class="toc-text">Vim에 존재하는 모드에 대해서</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#일반모드-명령-Normal-mode-Command-mode"><span class="toc-number">1.1.1.</span> <span class="toc-text">일반모드 명령 (Normal mode &#x2F; Command mode)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#비주얼-모드"><span class="toc-number">1.1.2.</span> <span class="toc-text">비주얼 모드</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ex-모드"><span class="toc-number">1.1.3.</span> <span class="toc-text">ex 모드</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#w와-W에-대해"><span class="toc-number">1.2.</span> <span class="toc-text">w와 W에 대해</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#inner-word"><span class="toc-number">1.3.</span> <span class="toc-text">inner word</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ciw-change-inner-word"><span class="toc-number">1.3.1.</span> <span class="toc-text">ciw (change inner word)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#diw-delete-inner-word"><span class="toc-number">1.3.2.</span> <span class="toc-text">diw (delete inner word)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ciW-diW"><span class="toc-number">1.3.3.</span> <span class="toc-text">ciW &#x2F; diW</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#복사-붙여넣기"><span class="toc-number">1.4.</span> <span class="toc-text">복사 &#x2F; 붙여넣기</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#K"><span class="toc-number">1.5.</span> <span class="toc-text">K</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://github.com/nokchax/2020/07/27/vim-shortcut/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://github.com/nokchax/2020/07/27/vim-shortcut/&text=vim shortcut" target="_blank" rel="noopener"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://github.com/nokchax/2020/07/27/vim-shortcut/&title=vim shortcut" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2020-2021
+    KwangHyun Kim
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/categories/">Category</a></li>
+         
+          <li><a href="/tags/">Tag</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>

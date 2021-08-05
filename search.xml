@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>vim shortcut</title>
+      <link href="/2020/07/27/vim-shortcut/"/>
+      <url>/2020/07/27/vim-shortcut/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Vim에서-사용하는-단축키를-알아보자"><a href="#Vim에서-사용하는-단축키를-알아보자" class="headerlink" title="Vim에서 사용하는 단축키를 알아보자"></a>Vim에서 사용하는 단축키를 알아보자</h1><p>vim에서 자주 사용하는 단축키에 대해서 알아봅시다</p><h2 id="Vim에-존재하는-모드에-대해서"><a href="#Vim에-존재하는-모드에-대해서" class="headerlink" title="Vim에 존재하는 모드에 대해서"></a>Vim에 존재하는 모드에 대해서</h2><p>put image here</p><h3 id="일반모드-명령-Normal-mode-Command-mode"><a href="#일반모드-명령-Normal-mode-Command-mode" class="headerlink" title="일반모드 명령 (Normal mode / Command mode)"></a>일반모드 명령 (Normal mode / Command mode)</h3><ul><li>가장 기본적인 모드</li><li>다른 모드에서 <strong>ESC</strong> 를 누르면 전환 된다.</li><li>혹은 <strong>Ctrl + [</strong> 를 눌러도 전환 된다.</li></ul><h3 id="비주얼-모드"><a href="#비주얼-모드" class="headerlink" title="비주얼 모드"></a>비주얼 모드</h3><h3 id="ex-모드"><a href="#ex-모드" class="headerlink" title="ex 모드"></a>ex 모드</h3><h2 id="w와-W에-대해"><a href="#w와-W에-대해" class="headerlink" title="w와 W에 대해"></a>w와 W에 대해</h2><p>w는 단어<br>W는 <strong>공백</strong> 으로 나누어지는 것을 하나의 단어로 인식합니다.</p><h2 id="inner-word"><a href="#inner-word" class="headerlink" title="inner word"></a>inner word</h2><h3 id="ciw-change-inner-word"><a href="#ciw-change-inner-word" class="headerlink" title="ciw (change inner word)"></a>ciw (change inner word)</h3><p>커서 기준으로 한 단어를 삭제하고 입력 상태로 변경합니다</p><img src="/2020/07/27/vim-shortcut/ciw.gif" class="" title="change inner word"><hr><h3 id="diw-delete-inner-word"><a href="#diw-delete-inner-word" class="headerlink" title="diw (delete inner word)"></a>diw (delete inner word)</h3><p>커서 기준으로 한 단어를 삭제합니다.</p><img src="/2020/07/27/vim-shortcut/diw.gif" class="" title="delete inner word"><hr><h3 id="ciW-diW"><a href="#ciW-diW" class="headerlink" title="ciW / diW"></a>ciW / diW</h3><p>커서를 기준으로 빈 공백 사이의 문자들을 삭제합니다.</p><img src="/2020/07/27/vim-shortcut/ciwUpper.gif" class="" title="delete inner word"><img src="/2020/07/27/vim-shortcut/diwUpper.gif" class="" title="delete inner word"><h2 id="복사-붙여넣기"><a href="#복사-붙여넣기" class="headerlink" title="복사 / 붙여넣기"></a>복사 / 붙여넣기</h2><p>맥 OS의 경우에는 command + c, v 를 이용해서 복사 붙여넣기가 가능하기 때문에 상관 없지만, 윈도우 환경에서는 단축기가 충돌난다.<br>이떄 ctrl + ins / shift + ins 로 대체할 수 있다.</p><h2 id="K"><a href="#K" class="headerlink" title="K"></a>K</h2><p>open man page (manual page?)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> vim </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vim </tag>
+            
+            <tag> 단축키 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
